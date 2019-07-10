@@ -20,12 +20,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Pinelab voor backend development en supersnelle statische websites.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pinelab.nl" # the base hostname & protocol for your site, e.g. http://example.com
-
+theme: null
 # Build settings
 markdown: kramdown
 sass:
-  sass_dir: _sass
-  style: compressed
+ style: compressed
 #plugins:
 #  - jekyll-feed
 
