@@ -586,12 +586,12 @@ p {
           height: 45px; }
 
 .header-content {
-  height: 730px;
+  height: 500px;
   width: 100%;
   margin-top: 90px;
   position: relative;
   overflow: hidden;
-  background-color: #fbfbfb; }
+  /*background-color: #fbfbfb;*/ }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-content {
       height: 550px; } }
@@ -909,7 +909,7 @@ p {
     line-height: 56px; }
   .single-service .service-content {
     margin-top: 11px; }
-    .single-service .service-content .service-title a {
+    .single-service .service-content .service-title {
       font-size: 22px;
       font-weight: 600;
       color: $subtitle;
